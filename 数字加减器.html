@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>数字加减器</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/数字加减器/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/数字加减器/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (组合) -->
+      <div id="u395" class="ax_default" data-width="99" data-height="22">
+
+        <!-- 数值 (矩形) -->
+        <div id="u396" class="ax_default box_1" data-label="数值">
+          <div id="u396_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u397" class="text">
+            <p><span>12</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u398" class="ax_default box_1">
+          <div id="u398_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u399" class="text">
+            <p><span>+</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u400" class="ax_default box_1">
+          <div id="u400_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u401" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- 光标 (垂直线) -->
+        <div id="u402" class="ax_default line ax_default_hidden" data-label="光标" style="display:none; visibility: hidden">
+          <img id="u402_img" class="img " src="images/数字加减器/光标_u402.png"/>
+          <!-- Unnamed () -->
+          <div id="u403" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u404" class="ax_default label">
+        <div id="u404_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u405" class="text">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">数字加减器1</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">使用场景：表单等提供的空间小时。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">规则说明：1.同时支持点按加减、长按快速加减、手动输入（不支持输入英文、中文、特殊符号等非阿拉伯数字）。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 2.限定 最小值≤文本框内数值≤最大值。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 3.当文本框内原有数值为整数时，仅支持整数修改，-+幅度为1；当文本框内原有数值为小数时，支持整数、小数修改，-+幅度为0.1</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">操作：1.按 —， 最后只能到限定的最小值，最小值可能为0可能为负可能是其他。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2.按+，最后只能到规定的最大值，这个最大值可能是可售库存数可能是其他。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3.手动输入，点击数值触控区域光标定位到数值末尾，点击确定时若数值超出限定范围则无法点击，若在范围内则可点击确定显示输入值。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u406" class="ax_default label">
+        <div id="u406_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u407" class="text">
+          <p><span>支持手动输入</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u408" class="ax_default" data-width="99" data-height="22">
+
+        <!-- 数值 (矩形) -->
+        <div id="u409" class="ax_default box_1" data-label="数值">
+          <div id="u409_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u410" class="text">
+            <p><span>12</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u411" class="ax_default box_1">
+          <div id="u411_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u412" class="text">
+            <p><span>+</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u413" class="ax_default box_1">
+          <div id="u413_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u414" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u415" class="ax_default label">
+        <div id="u415_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u416" class="text">
+          <p><span>不支持手动输入</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u417" class="ax_default label">
+        <div id="u417_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u418" class="text">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">数字加减器2</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">使用场景：表单等提供的空间小时。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">规则说明：1.同时支持点按加减、长按快速加减、不支持手动输入。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 2.限定 最小值≤文本框内数值≤最大值。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 3.当文本框内原有数值为整数时，仅支持整数-+，-+幅度为1；当文本框内原有数值为小数时，支持小数-+，-+幅度为0.1</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">操作：1.按 —， 最后只能到限定的最小值，最小值可能为0可能为负可能是其他。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2.按+，最后只能到规定的最大值，这个最大值可能是可售库存数可能是其他。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u419" class="ax_default label">
+        <div id="u419_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u420" class="text">
+          <p><span>支持手动输入</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u421" class="ax_default label">
+        <div id="u421_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u422" class="text">
+          <p><span>不支持手动输入</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u423" class="ax_default label">
+        <div id="u423_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u424" class="text">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">数字加减器3</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">使用场景：提供的空间大时。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">规则说明：1.同时支持点按加减、长按快速加减、手动输入（不支持输入英文、中文、特殊符号等非阿拉伯数字）。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 2.限定 最小值≤文本框内数值≤最大值。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 3.当文本框内原有数值为整数时，仅支持整数修改，-+幅度为1；当文本框内原有数值为小数时，支持整数、小数修改，-+幅度为0.1</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">操作：1.按 —， 最后只能到限定的最小值，最小值可能为0可能为负可能是其他。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2.按+，最后只能到规定的最大值，这个最大值可能是可售库存数可能是其他。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3.手动输入，点击数值触控区域光标定位到数值末尾，点击确定时若数值超出限定范围则无法点击，若在范围内则可点击确定显示输入值。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u425" class="ax_default label">
+        <div id="u425_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u426" class="text">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">数字加减器4</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">使用场景：提供的空间大时。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">规则说明：1.同时支持点按加减、长按快速加减、不支持手动输入。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 2.限定 最小值≤文本框内数值≤最大值。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 3.当文本框内原有数值为整数时，仅支持整数-+，-+幅度为1；当文本框内原有数值为小数时，支持小数-+，-+幅度为0.1</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">操作：1.按 —， 最后只能到限定的最小值，最小值可能为0可能为负可能是其他。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2.按+，最后只能到规定的最大值，这个最大值可能是可售库存数可能是其他。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u427" class="ax_default" data-width="124" data-height="42">
+
+        <!-- 数值 (矩形) -->
+        <div id="u428" class="ax_default box_1" data-label="数值">
+          <div id="u428_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u429" class="text">
+            <p><span>12</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u430" class="ax_default box_1">
+          <div id="u430_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u431" class="text">
+            <p><span>+</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u432" class="ax_default box_1">
+          <div id="u432_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u433" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- 光标 (垂直线) -->
+        <div id="u434" class="ax_default line ax_default_hidden" data-label="光标" style="display:none; visibility: hidden">
+          <img id="u434_img" class="img " src="images/数字加减器/光标_u434.png"/>
+          <!-- Unnamed () -->
+          <div id="u435" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u436" class="ax_default" data-width="134" data-height="42">
+
+        <!-- 数值 (矩形) -->
+        <div id="u437" class="ax_default box_1" data-label="数值">
+          <div id="u437_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u438" class="text">
+            <p><span>12</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u439" class="ax_default box_1">
+          <div id="u439_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u440" class="text">
+            <p><span>+</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u441" class="ax_default box_1">
+          <div id="u441_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u442" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
